@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Anta", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+/* ===================header==================== */
+.header {
+  background-color: WHITE;
+  z-index: 1;
+}
+.header.ficer {
+  position: sticky;
+  top: -28px;
+}
+.header .body {
+  display: flex;
+}
+.main-content {
+  width: 1170px;
+  height: 48px;
+  max-width: calc(100 - 48%);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 48px;
+}
+.nav {
+  margin-left: auto;
+}
+.nav ul {
+  display: flex;
+}
+.nav a {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  padding: 8px 12px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.nav .home,
+.nav a:hover {
+  color: black;
+  text-shadow: 0.9px 0px 0px black;
+}
+.body .action {
+  margin-top: 5px;
+  display: flex;
+  text-decoration: none;
+  margin-left: 53px;
+  bottom: none;
+  gap: 20px;
+}
+.body .action a {
+  color: black;
+}
+.body .action_1 a:hover {
+  color: #1ebfc1;
+  width: 108px;
+  height: 48px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+}
+.body .action_2 a {
+  color: #1ebfc1;
+  width: 108px;
+  height: 48px;
+  top: 52px;
+  left: 1197px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+}
